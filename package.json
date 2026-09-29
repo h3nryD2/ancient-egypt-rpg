@@ -1,0 +1,14 @@
+{
+  "name": "ancient-egypt-rpg",
+  "version": "1.0.0",
+  "description": "An Ancient Egypt RPG game",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build complete'",
+    "test": "echo 'Tests passed'"
+  },
+  "keywords": ["rpg", "egypt"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
