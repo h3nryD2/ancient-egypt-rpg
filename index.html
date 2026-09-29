@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Egito Antigo: A Lenda do Nilo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <h1>Egito Antigo: A Lenda do Nilo</h1>
+      </header>
+
+      <main class="game-shell">
+        <aside class="panel stats-panel">
+          <h2>Personagem</h2>
+          <div id="characterInfo"></div>
+          <div class="status-grid">
+            <div><span>Vida</span><strong id="hpStat">0</strong></div>
+            <div><span>Energia</span><strong id="energyStat">0</strong></div>
+            <div><span>Ouro</span><strong id="goldStat">0</strong></div>
+            <div><span>Saúde</span><strong id="sanityStat">0</strong></div>
+          </div>
+          <h3>Inventário</h3>
+          <ul id="inventoryList"></ul>
+        </aside>
+
+        <section class="panel main-panel">
+          <div id="sceneInfo"></div>
+          <div id="storyText" class="story-text"></div>
+          <div id="choices" class="choices"></div>
+        </section>
+
+        <aside class="panel quest-panel">
+          <h2>Missões</h2>
+          <ul id="questList"></ul>
+        </aside>
+      </main>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
